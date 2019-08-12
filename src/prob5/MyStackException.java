@@ -1,6 +1,6 @@
 package prob5;
 
-public class MyStackException extends Exception {
+public class MyStackException extends RuntimeException {
 	private static final long serialVersionUID = 1L;
 
 	public MyStackException() {
